@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>assignment 1</title>
+    <style>
+        
+
+        header {
+            background-color: rgb(24, 23, 23);
+            height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            line-height: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            
+        }
+
+
+        .ul1 {
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: rgb(242, 242, 242);
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            
+        }
+
+        .ul1 li {
+           
+            display: inline;
+
+        }
+
+        .ul1 li a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 0px 14px; 
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-size: 15px;
+            
+        }
+
+        
+        
+        
+        h1,
+        h2,
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }   
+         .search-bar{
+            border-radius: 10px;
+            float: right ;
+            margin-right: 100px;
+            margin: 10px;
+
+        }
+        .ashbox {
+            
+            background-color: rgb(242, 242, 242);
+            font-family: Arial, Helvetica, sans-serif;
+            height: 410px;
+            width: 30%;
+            left: 850px;
+            top: 130px;
+            padding: 10px;
+            margin-right: 10px; 
+            box-shadow: 0.5px 0.8px 0.5px 0.8px rgb(51, 48, 48);    
+            margin-bottom: 30px;
+        }
+
+        .whitebox {
+            font-size: 15px;
+            height: 425px;
+            background-color: white;
+            float: left;
+            padding: 5px;
+            box-shadow: 0.5px 0.8px 0.5px 0.8px rgb(51, 48, 48);
+            margin-bottom: 40px;
+            width: 65%;
+        }
+
+         body {
+            box-sizing: border-box;
+            max-width: 100%;;
+            background-color: rgb(242, 242, 242);
+            overflow: hidden;
+        } 
+        .set{
+            display:flex;
+            justify-content: space-between;
+        }
+        .footer{
+            font-family:  Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header</header>
+     <div class="navbar">
+        <ul class="ul1">
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="#ourteam">OUR TEAM</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            
+        </ul>
+
+
+        <div class="search-bar" >
+            <input type="text" placeholder="search query">
+            <button style="background-color: black;color: white; border-radius: 5px;">GO!</button>
+        </div>
+     </div>
+     
+     
+<div class="set">
+    
+    <div class="whitebox">
+        <h1>Article heading</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequa</p>
+        <h2>subsection</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur.Excepteur sint occaecat  cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+        <h2>Another subsection</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur.Excepteur sint occaecat  cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="ashbox">
+        <h1>Related</h1>
+        <ul class="ul2">
+            <li><a target="_blank" href="https://www.google.com/">oh i do like to be beside the sea side</a></li>
+            <li><a target="_blank" href="https://www.google.com/">oh i do love to be beside the sea</a></li>
+            <li><a target="_blank" href="https://www.google.com/">Although in the north of london</a></li>
+            <li><a target="_blank" href="https://www.google.com/">It never stops raining</a></li>
+            <li><a target="_blank" href="https://www.google.com/">oh well...</a></li>
+        </ul>
+    </div>
+</div>
+ <footer class="footer"> ©copyright 2050 by nobody. All rights reserved</footer>
+</body>
+
+</html>
